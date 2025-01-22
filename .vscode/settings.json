@@ -3,6 +3,7 @@
         "iostream": "cpp",
         "string.h": "c",
         "ostream": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "*.tcc": "cpp"
     }
 }
