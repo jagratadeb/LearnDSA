@@ -4,6 +4,7 @@
         "string.h": "c",
         "ostream": "cpp",
         "stdio.h": "c",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "random": "cpp"
     }
 }
