@@ -7,7 +7,6 @@ int main()
     // Prompt user for the length and breadth of the rectangle
     printf("Enter the length and breadth of the rectangle:\n");
     scanf("%d %d", &length, &breadth);
-
     // Calculate area and perimeter of the rectangle
     area = length * breadth;
     perimeter = 2 * (length + breadth);
