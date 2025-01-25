@@ -6,12 +6,10 @@ class Arithmatic
 private:
     int a;
     int b;
-
 public:
     Arithmatic(int a, int b);
     int add();
     int sub();
-
     ~Arithmatic();
 };
 
@@ -40,6 +38,5 @@ int main()
     Arithmatic A = {100, 50};
     cout << "\nAdd = " << A.add() << endl;
     cout << "Sub = " << A.sub() << endl << endl;
-
     return 0;
 }
