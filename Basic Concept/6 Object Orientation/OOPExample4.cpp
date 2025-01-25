@@ -1,41 +1,41 @@
 #include <iostream>
 using namespace std;
 
-class Arithmatic
+class Arithmetic
 {
 private:
     int a;
     int b;
 public:
-    Arithmatic(int a, int b);
+    Arithmetic(int a, int b);
     int add();
     int sub();
-    ~Arithmatic();
+    ~Arithmetic();
 };
 
-Arithmatic::Arithmatic(int a, int b)
+Arithmetic::Arithmetic(int a, int b)
 {
     this->a = a;
     this->b = b;
 }
-int Arithmatic::add()
+int Arithmetic::add()
 {
     int c = a + b;
     return c;
 }
-int Arithmatic::sub()
+int Arithmetic::sub()
 {
     int c = a - b;
     return c;
 }
-Arithmatic::~Arithmatic()
+Arithmetic::~Arithmetic()
 {
     cout << "Destructor called" << endl;
 };
 
 int main()
 {
-    Arithmatic A = {100, 50};
+    Arithmetic A = {100, 50};
     cout << "\nAdd = " << A.add() << endl;
     cout << "Sub = " << A.sub() << endl << endl;
     return 0;
