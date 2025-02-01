@@ -14,7 +14,7 @@ void fun2(int x)
 {
     if (x > 0) // Check if x is greater than 0
     {
-        fun2(x - 1); // Recursively call fun2 with x - 1
+        fun2(x - 1);       // Recursively call fun2 with x - 1
         cout << x << endl; // Print the value of x
     }
 }
