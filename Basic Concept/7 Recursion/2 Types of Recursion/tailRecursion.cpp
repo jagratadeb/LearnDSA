@@ -7,7 +7,7 @@ void fun(int n)
     if (n > 0)
     {
         cout << n << endl;
-        fun(n - 1); // tail recursion
+        fun(n - 1); // Tail recursion: The function calls itself as the last action in its code block
     }
 }
 
@@ -17,7 +17,6 @@ int main()
     cout << "This is an example of Tail Recursion" << endl;
     cout << "Output:" << endl;
     fun(n); // Call the function with n = 3
-
 
     return 0;
 }
