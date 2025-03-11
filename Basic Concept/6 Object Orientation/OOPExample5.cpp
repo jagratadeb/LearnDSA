@@ -65,18 +65,15 @@ int main()
 {
     Arithmetic<int> A1(100, 50);            // Create object with int type
     cout << "\nAdd = " << A1.add() << endl; // Display result
-    cout << "Sub = " << A1.sub() << endl
-         << endl; // Display result
+    cout << "Sub = " << A1.sub() << endl; // Display result
 
     Arithmetic<float> A2(100.1, 50.20); // Create object with float type
     cout << "\nAdd = " << A2.add() << endl;
-    cout << "Sub = " << A2.sub() << endl
-         << endl;
+    cout << "Sub = " << A2.sub() << endl;
 
     Arithmetic<double> A3(100.561, 50.25); // Create object with double type
     cout << "\nAdd = " << A3.add() << endl;
-    cout << "Sub = " << A3.sub() << endl
-         << endl;
+    cout << "Sub = " << A3.sub() << endl;
 
     return 0;
 }
