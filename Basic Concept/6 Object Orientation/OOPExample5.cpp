@@ -65,7 +65,7 @@ int main()
 {
     Arithmetic<int> A1(100, 50);            // Create object with int type
     cout << "\nAdd = " << A1.add() << endl; // Display result
-    cout << "Sub = " << A1.sub() << endl; // Display result
+    cout << "Sub = " << A1.sub() << endl;   // Display result
 
     Arithmetic<float> A2(100.1, 50.20); // Create object with float type
     cout << "\nAdd = " << A2.add() << endl;
