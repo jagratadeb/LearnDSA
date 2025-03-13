@@ -4,11 +4,11 @@ using namespace std;
 // Function to calculate the Taylor series
 double e(int x, int n)
 {
-    static double p = 1, f = 1; // Static variables to hold the power and factorial values
+    static double p = 1, f = 1; // Static variables to hold the power and factorial
     double r;
 
     if (n == 0)
-        return 1; // Base case: if n is 0, return 1
+        return 1; // Base case: e^x = 1 when n is 0
     else
     {
         r = e(x, n - 1); // Recursive call
@@ -20,7 +20,7 @@ double e(int x, int n)
 
 int main()
 {
-    double r = e(8, 100); // Calculate the Taylor series for e^8 with 100 terms
-    cout << r << endl; // Output the result
+    double r = e(8, 100); // Calculate e^8 using 100 terms
+    cout << r << endl; // Print the result
     return 0;
 }
