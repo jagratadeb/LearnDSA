@@ -9,12 +9,12 @@ int pow(int m, int n)
         return 1;
     // Recursive case: m^n = m * m^(n-1)
     else
-        return pow(2, n - 1) * m;        
+        return pow(m, n - 1) * m;        
 }
 
 int main()
 {
-    int m = 5, n = 1;
+    int m = 5, n = 2;
     // Calculate m raised to the power n
     int result = pow(m, n);
     // Print the result
