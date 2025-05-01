@@ -1,0 +1,4 @@
+Test/
+.vscode/
+*.exe
+*.out
