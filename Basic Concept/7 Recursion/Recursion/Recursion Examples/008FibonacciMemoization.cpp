@@ -19,6 +19,8 @@ int fib(int n)
             F[n-2] = fib(n-2);
         if(F[n-1] == -1)
             F[n-1] = fib(n-1);
+
+        F[n] = F[n-2] + F[n-1];
         return F[n-2] + F[n-1]; // Return the sum of the previous two Fibonacci numbers
     }
 }
