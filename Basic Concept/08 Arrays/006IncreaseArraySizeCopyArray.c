@@ -21,22 +21,22 @@ int main()
     {
         printf("%d ", p[i]);
     }
-    
+
     // Allocate memory in the heap for a larger array
     q = (int *)malloc(10 * sizeof(int));
-    
+
     // Copy the contents of the smaller array to the larger array
     for (i = 0; i < 5; i++)
     {
         q[i] = p[i];
     }
-    
+
     // Free the memory allocated for the smaller array
     free(p);
     // Point p to the larger array and set q to NULL
     p = q;
     q = NULL;
-    
+
     printf("\n");
     // Print the elements of the larger array
     printf("Larger Array:\n");
@@ -44,6 +44,8 @@ int main()
     {
         printf("%d ", p[i]);
     }
+
+    free(p);
 
     return 0;
 }
