@@ -12,7 +12,8 @@ This repository contains a collection of programs and examples to help you learn
   - **05 Functions/**: Examples of passing parameters, modular code, and monolithic code.
   - **06 Object Orientation/**: Object-oriented programming examples in C++.
   - **07 Recursion/**: Examples of recursion, including types and iterative vs recursive approaches.
-  - **08 Arrays/**: Examples of static and dynamic arrays.
+  - **08 Arrays Basics/**: Examples of declaring arrays, dynamic arrays, and creating 2D arrays.
+  - **09 Array ADT/**: Programs demonstrating array Abstract Data Types (ADT).
 
 
 ## Prerequisites
