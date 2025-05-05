@@ -1,32 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Display array elements
 void display(int A[], int size)
 {
-    printf("Displaying the array:\n");
     for (int i = 0; i < size; i++)
     {
-        printf("%d ", A[i]);
+        printf("%d ", A[i]); // Print element
     }
     printf("\n");
 }
 
 int main()
 {
-    int *A;
-    printf("Enter the array size:\n");
+    int *A; // Dynamic array pointer
     int size;
-    scanf("%d", &size);
 
-    A = (int *)malloc(size * sizeof(int));
+    printf("Enter size:\n");
+    scanf("%d", &size); // Input size
 
-    printf("Enter the %d elements:\n", size);
+    A = (int *)malloc(size * sizeof(int)); // Allocate memory
+
+    printf("Enter elements:\n");
     for (int i = 0; i < size; i++)
     {
-        scanf("%d", &A[i]);
+        scanf("%d", &A[i]); // Input elements
     }
 
-    display(A, size);
+    display(A, size); // Display array
 
-    free(A);
+    free(A); // Free memory
 }
