@@ -118,3 +118,21 @@ This repository contains a collection of programs and examples to help you learn
 1. Clone the repository to your local machine.
 2. Navigate to the desired folder.
 3. Compile and run the program using your preferred C/C++ compiler.
+
+---
+
+## Author
+
+This repository is maintained by [Jagrata Deb].
+
+- **Email**: jagratadeb2004@gmail.com
+- **GitHub**: [JagrataDeb](https://github.com/jagratadeb)
+- **LinkedIn**: [Jagrata Deb](https://www.linkedin.com/in/jagratadeb/)
+
+Feel free to reach out for any queries or suggestions!
+
+---
+
+## Last Updated
+
+This repository was last updated on **May 5, 2025**.
