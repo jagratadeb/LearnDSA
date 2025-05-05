@@ -102,7 +102,8 @@ This repository contains a collection of programs and examples to help you learn
 - **`01CreateArrayHeap.c`**: Creating arrays using heap memory in C.
 - **`02CreateArrayStack.c`**: Creating arrays using stack memory in C.
 - **`03DisplayArray.c`**: Displaying array elements in C.
-- **`04InsertElement.c`**: Inserting elements into an array in C.
+- **`04AppendElement.c`**: Appending elements to an array in C.
+- **`05InsertElement.c`**: Inserting elements into an array in C.
 
 ---
 
@@ -123,7 +124,7 @@ This repository contains a collection of programs and examples to help you learn
 
 ## Author
 
-This repository is maintained by [Jagrata Deb].
+This repository is maintained by Jagrata Deb.
 
 - **Email**: jagratadeb2004@gmail.com
 - **GitHub**: [JagrataDeb](https://github.com/jagratadeb)
