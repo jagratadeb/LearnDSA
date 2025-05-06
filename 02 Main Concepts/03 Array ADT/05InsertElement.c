@@ -34,7 +34,7 @@ void insert(struct Array *arr, int index, int ele)
     }
     else
     {
-        printf("\nUnable to insert %d at index %d", ele, index);
+        printf("\n%d not inserted. (%d is an invalid index!)",ele, index);
     }
 }
 
