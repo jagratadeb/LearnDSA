@@ -127,8 +127,10 @@ This repository contains a collection of programs and examples to help you learn
 This repository is maintained by Jagrata Deb.
 
 - **Email**: jagratadeb2004@gmail.com
-- **GitHub**: [Jagrata Deb](https://github.com/jagratadeb)
+- **GitHub**: [JagrataDeb](https://github.com/jagratadeb)
 - **LinkedIn**: [Jagrata Deb](https://www.linkedin.com/in/jagratadeb/)
+
+Feel free to reach out for any queries or suggestions!
 
 ---
 
