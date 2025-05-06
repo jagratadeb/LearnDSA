@@ -41,9 +41,10 @@ int main()
 {
     struct Array arr = {{1, 2, 3, 4, 5}, 10, 5}; // Initialize
 
-    display(arr);        // Show array
-    delete(&arr, 9);     // Delete element
-    display(arr);        // Show updated array
+    display(arr);    // Show array
+    delete(&arr, 2); // Delete element
+    delete(&arr, 9); // Delete element (invalid index)
+    display(arr);    // Show updated array
 
     return 0;
 }
