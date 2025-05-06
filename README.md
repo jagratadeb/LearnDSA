@@ -104,6 +104,10 @@ This repository contains a collection of programs and examples to help you learn
 - **`03DisplayArray.c`**: Displaying array elements in C.
 - **`04AppendElement.c`**: Appending elements to an array in C.
 - **`05InsertElement.c`**: Inserting elements into an array in C.
+- **`06DeleteElement.c`**: Deleting elements from an array in C.
+- **`07LinearSearch.c`**: Performing linear search in an array in C.
+- **`08LinearSearchBetterTransposition.cpp`**: Optimized linear search using transposition in C++.
+- **`09LinearSearchBetterMoveToFront.c`**: Optimized linear search using move-to-front in C.
 
 ---
 
@@ -136,4 +140,4 @@ Feel free to reach out for any queries or suggestions!
 
 ## Last Updated
 
-This repository was last updated on **May 5, 2025**.
+This repository was last updated on **May 6, 2025**.
