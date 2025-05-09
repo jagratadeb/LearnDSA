@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define a structure to represent a dynamic array
+// Define a structure for a dynamic array
 struct Array
 {
-    int *A; // Pointer to the array elements
-    int size; // Maximum size of the array
-    int length; // Current number of elements in the array
+    int *A;     // Array pointer
+    int size;   // Max size
+    int length; // Current length
 };
 
-// Function to display the elements and properties of the array
+// Display array elements and properties
 void display(struct Array a)
 {
-    printf("\nPrinting the array:\n");
+    printf("\nArray elements:\n");
     for (int i = 0; i < a.length; i++)
     {
-        printf("%d ", a.A[i]); // Print each element up to the current length
+        printf("%d ", a.A[i]); // Print elements
     }
-    printf("\nPrinting the array entire:\n");
+    printf("\nFull array:\n");
     for (int i = 0; i < a.size; i++)
     {
-        printf("%d ", a.A[i]); // Print all elements up to the maximum size
+        printf("%d ", a.A[i]); // Print all elements
     }
 
-    printf("\nLength of the array: %d", a.length); // Print the current length
-    printf("\nSize of the array: %d", a.size); // Print the maximum size
+    printf("\nLength: %d", a.length); // Current length
+    printf("\nSize: %d", a.size);     // Max size
 }
 
 int main()
