@@ -8,6 +8,19 @@ struct Array
     int length; // Current number of elements in the array
 };
 
+// display function prototype
+void display(struct Array a);
+
+int main()
+{
+    // Initialize a static array with some elements
+    struct Array arr = {{1, 2, 3, 4, 5}, 20, 5};
+
+    display(arr); // Display the array and its properties
+
+    return 0;
+}
+
 // Function to display the elements and properties of the array
 void display(struct Array a)
 {
@@ -25,14 +38,4 @@ void display(struct Array a)
     printf("\nLength of the array: %d", a.length); // Print the current length
     printf("\nSize of the array: %d", a.size); // Print the maximum size
     printf("\nSize of the array (in Bytes): %d bytes", sizeof(int) * a.size); // Print the size in bytes
-}
-
-int main()
-{
-    // Initialize a static array with some elements
-    struct Array arr = {{1, 2, 3, 4, 5}, 20, 5};
-
-    display(arr); // Display the array and its properties
-
-    return 0;
 }

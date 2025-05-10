@@ -9,6 +9,21 @@ struct Array
     int length; // Current number of elements
 };
 
+// Function prototype
+void display(struct Array arr);
+void insert(struct Array *arr, int index, int ele);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5}, 10, 5}; // Initialize array
+
+    insert(&arr, 3, 10); // Insert element
+    insert(&arr, 8, 45); // Insert element
+    display(arr);        // Display updated array
+
+    return 0;
+}
+
 // Display array elements
 void display(struct Array arr)
 {
@@ -34,17 +49,6 @@ void insert(struct Array *arr, int index, int ele)
     }
     else
     {
-        printf("\n%d not inserted. (%d is an invalid index!)",ele, index);
+        printf("\n%d not inserted. (%d is an invalid index!)", ele, index);
     }
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5}, 10, 5}; // Initialize array
-
-    insert(&arr, 3, 10); // Insert element
-    insert(&arr, 8, 45); // Insert element
-    display(arr);        // Display updated array
-
-    return 0;
 }
