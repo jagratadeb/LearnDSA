@@ -9,6 +9,22 @@ struct Array
     int length; // Current count
 };
 
+// Function prototyping
+void display(struct Array arr);
+void delete(struct Array *arr, int index);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5}, 10, 5}; // Initialize
+
+    display(arr);    // Show array
+    delete(&arr, 2); // Delete element
+    delete(&arr, 9); // Delete element (invalid index)
+    display(arr);    // Show updated array
+
+    return 0;
+}
+
 // Display array
 void display(struct Array arr)
 {
@@ -35,16 +51,4 @@ void delete(struct Array *arr, int index)
     {
         printf("\nInvalid Index!");
     }
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5}, 10, 5}; // Initialize
-
-    display(arr);    // Show array
-    delete(&arr, 2); // Delete element
-    delete(&arr, 9); // Delete element (invalid index)
-    display(arr);    // Show updated array
-
-    return 0;
 }

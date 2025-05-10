@@ -8,6 +8,23 @@ struct Array
     int length; // Current number of elements
 };
 
+// Function prototype
+void display(struct Array arr);
+int linearSearch(struct Array arr, int key);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
+
+    display(arr); // Display array elements
+
+    int ele = 5; // Element to search for
+
+    printf("\n%d is located at index %d\n", ele, linearSearch(arr, ele)); // Print search result
+
+    return 0;
+}
+
 // Display all elements in the array
 void display(struct Array arr)
 {
@@ -29,17 +46,4 @@ int linearSearch(struct Array arr, int key)
         }
     }
     return -1; // Return -1 if key is not found
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
-
-    display(arr); // Display array elements
-
-    int ele = 5; // Element to search for
-
-    printf("\n%d is located at index %d\n", ele, linearSearch(arr, ele)); // Print search result
-
-    return 0;
 }
