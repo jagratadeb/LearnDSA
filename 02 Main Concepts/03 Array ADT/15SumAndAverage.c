@@ -7,6 +7,30 @@ struct Array
     int length;
 };
 
+// Function prototype
+void display(int A[], int size);
+int sum(struct Array arr);
+int avg(struct Array arr);
+int sumRecursion(struct Array arr, int length);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
+
+    display(arr.A, arr.size); // Show array
+
+    int sumResult = sum(arr);
+    printf("\nSum = %d", sumResult);
+
+    float avgResult = avg(arr);
+    printf("\nAverage = %0.2f", avgResult);
+
+    int sumRecursionResult = sumRecursion(arr, arr.length - 1);
+    printf("\nSum (Recursive) = %d", sumRecursionResult);
+
+    return 0;
+}
+
 // Display array elements
 void display(int A[], int size)
 {
@@ -45,22 +69,4 @@ int sumRecursion(struct Array arr, int length)
     {
         return sumRecursion(arr, length - 1) + arr.A[length]; // Recursive call
     }
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
-
-    display(arr.A, arr.size); // Show array
-
-    int sumResult = sum(arr);
-    printf("\nSum = %d", sumResult);
-
-    float avgResult = avg(arr);
-    printf("\nAverage = %0.2f", avgResult);
-
-    int sumRecursionResult = sumRecursion(arr, arr.length - 1);
-    printf("\nSum (Recursive) = %d", sumRecursionResult);
-
-    return 0;
 }
