@@ -3,35 +3,14 @@
 // Structure to represent an array with its size and current length
 struct Array
 {
-    int A[20]; // Array to hold elements
-    int size;  // Maximum size of the array
+    int A[20];  // Array to hold elements
+    int size;   // Maximum size of the array
     int length; // Current number of elements in the array
 };
 
-// Function to display the elements of the array
-void display(struct Array arr)
-{
-    for (int i = 0; i < arr.length; i++)
-    {
-        printf("%d ", arr.A[i]); // Print each element
-    }
-    printf("\n"); // Print a newline after displaying all elements
-}
-
-// Function to insert an element into a sorted array
-void insertInSortedArray(struct Array arr[], int ele)
-{
-    int i = arr->length - 1; // Start from the last element
-    // Shift elements to the right to make space for the new element
-    while (arr->A[i] > ele)
-    {
-        arr->A[i + 1] = arr->A[i];
-        i--;
-    }
-    i++; // Find the correct position for the new element
-    arr->A[i] = ele; // Insert the new element
-    arr->length++; // Increase the length of the array
-}
+// Function prototypes
+void insertInSortedArray(struct Array arr[], int ele);
+void display(struct Array arr);
 
 int main()
 {
@@ -63,4 +42,29 @@ int main()
     display(arr);
 
     return 0; // End of the program
+}
+
+void display(struct Array arr)
+// Function to display the elements of the array
+{
+    for (int i = 0; i < arr.length; i++)
+    {
+        printf("%d ", arr.A[i]); // Print each element
+    }
+    printf("\n"); // Print a newline after displaying all elements
+}
+
+// Function to insert an element into a sorted array
+void insertInSortedArray(struct Array arr[], int ele)
+{
+    int i = arr->length - 1; // Start from the last element
+    // Shift elements to the right to make space for the new element
+    while (arr->A[i] > ele)
+    {
+        arr->A[i + 1] = arr->A[i];
+        i--;
+    }
+    i++;             // Find the correct position for the new element
+    arr->A[i] = ele; // Insert the new element
+    arr->length++;   // Increase the length of the array
 }

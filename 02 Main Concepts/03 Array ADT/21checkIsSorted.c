@@ -1,29 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to display the elements of the array
-void display(int *arr, int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        printf("%d ", arr[i]); // Print each element
-    }
-    printf("\n"); // Print a newline after displaying all elements
-}
-
-// Function to check if the array is sorted in ascending order
-int isSorted(int arr[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        // If any element is greater than the next, the array is not sorted
-        if (arr[i] > arr[i + 1])
-        {
-            return 0; // Return 0 if not sorted
-        }
-    }
-    return 1; // Return 1 if sorted
-}
+// Function prototypes
+void display(int *arr, int size);
+int isSorted(int arr[], int size);
 
 int main()
 {
@@ -60,4 +40,28 @@ int main()
     }
 
     return 0; // End of the program
+}
+
+// Function to display the elements of the array
+void display(int *arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d ", arr[i]); // Print each element
+    }
+    printf("\n"); // Print a newline after displaying all elements
+}
+
+// Function to check if the array is sorted in ascending order
+int isSorted(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        // If any element is greater than the next, the array is not sorted
+        if (arr[i] > arr[i + 1])
+        {
+            return 0; // Return 0 if not sorted
+        }
+    }
+    return 1; // Return 1 if sorted
 }
