@@ -9,6 +9,21 @@ struct Array
     int length; // Current number of elements in the array
 };
 
+// Function prototype
+void display(struct Array a);
+void reverse(struct Array *arr);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10};
+
+    display(arr);
+    reverse(&arr);
+    display(arr);
+
+    return 0;
+}
+
 // Function to display the elements of the array
 void display(struct Array a)
 {
@@ -31,15 +46,4 @@ void reverse(struct Array *arr)
     {
         arr->A[i] = B[i]; // Copy back to original array
     }
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10};
-
-    display(arr);
-    reverse(&arr);
-    display(arr);
-
-    return 0;
 }
