@@ -8,6 +8,21 @@ struct Array
     int length;
 };
 
+// Function prototype
+void display(struct Array a);
+void reverse(struct Array *arr);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9}, 10, 9}; // Initialize array
+
+    display(arr);  // Show original array
+    reverse(&arr); // Reverse array
+    display(arr);  // Show reversed array
+
+    return 0;
+}
+
 // Display array elements
 void display(struct Array a)
 {
@@ -27,15 +42,4 @@ void reverse(struct Array *arr)
         arr->A[i] = arr->A[arr->length - 1 - i];
         arr->A[arr->length - 1 - i] = temp;
     }
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9}, 10, 9}; // Initialize array
-
-    display(arr);  // Show original array
-    reverse(&arr); // Reverse array
-    display(arr);  // Show reversed array
-
-    return 0;
 }
