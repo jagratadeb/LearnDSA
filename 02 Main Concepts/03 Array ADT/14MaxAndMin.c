@@ -3,10 +3,26 @@
 // Define the Array structure
 struct Array
 {
-    int A[10]; // Array elements
-    int size;  // Maximum size of the array
+    int A[10];  // Array elements
+    int size;   // Maximum size of the array
     int length; // Current number of elements
 };
+
+// Function prototype
+void display(int A[], int size);
+void max(struct Array arr);
+void min(struct Array arr);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
+
+    display(arr.A, arr.size); // Display array elements
+    max(arr);                 // Find and display the maximum element
+    min(arr);                 // Find and display the minimum element
+
+    return 0;
+}
 
 // Display array elements
 void display(int A[], int size)
@@ -44,15 +60,4 @@ void min(struct Array arr)
         }
     }
     printf("Min: %d\n", min); // Print the minimum value
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
-
-    display(arr.A, arr.size); // Display array elements
-    max(arr); // Find and display the maximum element
-    min(arr); // Find and display the minimum element
-
-    return 0;
 }
