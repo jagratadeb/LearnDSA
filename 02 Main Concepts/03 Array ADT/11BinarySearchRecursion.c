@@ -3,10 +3,24 @@
 // Define the Array structure
 struct Array
 {
-    int A[10]; // Array elements
-    int size;  // Maximum size of the array
+    int A[10];  // Array elements
+    int size;   // Maximum size of the array
     int length; // Current number of elements
 };
+
+// Function prototype
+int recursiveBinarySearch(int arr[], int l, int h, int key);
+void display(struct Array arr);
+
+int main()
+{
+    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
+    display(arr);                                                 // Display array elements
+
+    int key = 1;                                                                           // Key to search
+    printf("%d found at index %d", key, recursiveBinarySearch(arr.A, 0, arr.length, key)); // Perform search
+    return 0;
+}
 
 // Display array elements
 void display(struct Array arr)
@@ -40,14 +54,4 @@ int recursiveBinarySearch(int arr[], int l, int h, int key)
         }
     }
     return -1; // Key not found
-}
-
-int main()
-{
-    struct Array arr = {{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10, 10}; // Initialize array
-    display(arr); // Display array elements
-
-    int key = 1; // Key to search
-    printf("%d found at index %d", key, recursiveBinarySearch(arr.A, 0, arr.length, key)); // Perform search
-    return 0;
 }
