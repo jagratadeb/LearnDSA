@@ -25,7 +25,7 @@ int main()
 
     arr3 = unionUnsorted(&arr1, &arr2);
 
-    printf("\nUnion:\n");
+    printf("\nUnsorted Union Array:\n");
     display(*arr3);
 
     free(arr3);

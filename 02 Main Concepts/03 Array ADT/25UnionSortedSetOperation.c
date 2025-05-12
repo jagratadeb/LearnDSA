@@ -23,7 +23,7 @@ int main()
     display(arr1);
     printf("Display Array 2:\n");
     display(arr2);
-    printf("Display Merged Array:\n");
+    printf("Sorted Union Array:\n");
     display(*arr3);
     return 0;
 }
