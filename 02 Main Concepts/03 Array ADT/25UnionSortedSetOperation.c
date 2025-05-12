@@ -25,6 +25,8 @@ int main()
     display(arr2);
     printf("Sorted Union Array:\n");
     display(*arr3);
+
+    free(arr3);
     return 0;
 }
 
@@ -51,31 +53,27 @@ struct Array *unionSorted(struct Array *arr1, struct Array *arr2)
         if (arr1->A[i] < arr2->A[j])
         {
             arr3->A[k++] = arr1->A[i++];
-            arr3->length++;
         }
         else if (arr1->A[i] > arr2->A[j])
         {
 
             arr3->A[k++] = arr2->A[j++];
-            arr3->length++;
         }
         else
         {
             arr3->A[k++] = arr1->A[i++];
             j++;
-            arr3->length++;
         }
     }
     for (; i < arr1->length; i++)
     {
         arr3->A[k++] = arr1->A[i];
-        arr3->length++;
     }
     for (; j < arr2->length; j++)
     {
         arr3->A[k++] = arr2->A[j];
-        arr3->length++;
     }
+    arr3->length = k;
     arr3->size = arr1->size + arr2->size;
 
     return arr3;
