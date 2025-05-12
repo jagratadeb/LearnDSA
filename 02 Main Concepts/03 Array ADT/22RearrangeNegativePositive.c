@@ -3,10 +3,30 @@
 // Structure to represent an array with its size and current length
 struct Array
 {
-    int A[10]; // Array to hold elements
-    int size;  // Maximum size of the array
+    int A[10];  // Array to hold elements
+    int size;   // Maximum size of the array
     int length; // Current number of elements in the array
 };
+
+// Function prototype
+void display(struct Array arr);
+void swap(int *i, int *j);
+void rearrange(struct Array *arr);
+
+int main()
+{
+    // Initialize an array with both negative and positive numbers
+    struct Array arr = {{-6, 3, -8, 10, 5, -7, -9, 12, -4, 2}, 10, 10};
+
+    printf("Show Original Array:\n");
+    display(arr); // Display the original array
+
+    printf("Array after Rearranging:\n");
+    rearrange(&arr); // Rearrange the array
+    display(arr);    // Display the rearranged array
+
+    return 0; // End of the program
+}
 
 // Function to display the elements of the array
 void display(struct Array arr)
@@ -52,19 +72,4 @@ void rearrange(struct Array *arr)
             swap(&arr->A[i], &arr->A[j]);
         }
     }
-}
-
-int main()
-{
-    // Initialize an array with both negative and positive numbers
-    struct Array arr = {{-6, 3, -8, 10, 5, -7, -9, 12, -4, 2}, 10, 10};
-
-    printf("Show Original Array:\n");
-    display(arr); // Display the original array
-
-    printf("Array after Rearranging:\n");
-    rearrange(&arr); // Rearrange the array
-    display(arr); // Display the rearranged array
-
-    return 0; // End of the program
 }

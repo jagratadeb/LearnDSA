@@ -8,6 +8,26 @@ struct Array
     int length;
 };
 
+// Function prototype
+void display(struct Array arr);
+struct Array *merge(struct Array *arr1, struct Array *arr2);
+
+int main()
+{
+    struct Array arr1 = {{2, 4, 6, 8, 10}, 10, 5};
+    struct Array arr2 = {{1, 3, 5, 7, 9}, 10, 5};
+    struct Array *arr3;
+    arr3 = merge(&arr1, &arr2);
+
+    printf("Display Array 1:\n");
+    display(arr1);
+    printf("Display Array 2:\n");
+    display(arr2);
+    printf("Display Merged Array:\n");
+    display(*arr3);
+    return 0;
+}
+
 void display(struct Array arr)
 {
     for (int i = 0; i < arr.length; i++)
@@ -40,7 +60,7 @@ struct Array *merge(struct Array *arr1, struct Array *arr2)
     {
         arr3->A[k++] = arr1->A[i++];
     }
-    for (; j < arr2->length; i++)
+    for (; j < arr2->length; j++)
     {
         arr3->A[k++] = arr2->A[j++];
     }
@@ -48,20 +68,4 @@ struct Array *merge(struct Array *arr1, struct Array *arr2)
     arr3->size = 10;
 
     return arr3;
-}
-
-int main()
-{
-    struct Array arr1 = {{2, 4, 6, 8, 10}, 10, 5};
-    struct Array arr2 = {{1, 3, 5, 7, 9}, 10, 5};
-    struct Array *arr3;
-    arr3 = merge(&arr1, &arr2);
-
-    printf("Display Array 1:\n");
-    display(arr1);
-    printf("Display Array 2:\n");
-    display(arr2);
-    printf("Display Merged Array:\n");
-    display(*arr3);
-    return 0;
 }
