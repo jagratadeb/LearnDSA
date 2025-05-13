@@ -71,6 +71,5 @@ struct Array *unionUnsorted(struct Array *arr1, struct Array *arr2)
             arr3->length++;
         }
     }
-
     return arr3;
 }
