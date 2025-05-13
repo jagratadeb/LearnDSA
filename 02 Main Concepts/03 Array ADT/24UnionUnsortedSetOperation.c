@@ -46,7 +46,7 @@ struct Array *unionUnsorted(struct Array *arr1, struct Array *arr2)
     int k = 0;
     struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array));
     arr3->length = 0;
-    arr3->size = arr1->size + arr2->size;
+    arr3->size = arr1->length + arr2->length;
 
     for (int i = 0; i < arr1->length; i++)
     {

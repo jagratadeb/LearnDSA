@@ -65,7 +65,7 @@ struct Array *intersectionSorted(struct Array *arr1, struct Array *arr2)
         }
     }
     arr3->length = k;
-    arr3->size = arr1->size + arr2->size;
+    arr3->size = arr1->length;
 
     return arr3;
 }

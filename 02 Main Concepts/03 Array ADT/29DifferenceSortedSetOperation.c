@@ -69,7 +69,7 @@ struct Array *differenceSorted(struct Array *arr1, struct Array *arr2)
         arr3->A[k++] = arr1->A[i];
     }
     arr3->length = k;
-    arr3->size = arr1->size + arr2->size;
+    arr3->size = arr1->length;
 
     return arr3;
 }
