@@ -27,7 +27,7 @@ This repository contains a collection of programs and examples to help you learn
   - **2 Types of Recursion**: Examples of tail, head, tree, indirect, and nested recursion.
   - **Recursion**: Contains iterative and recursive examples for problems like sum of numbers, factorial, power, Fibonacci, and Taylor series.
 - **02 Array Basics**: Programs covering array declaration, addressing, static and dynamic arrays, and creating 2D arrays using different methods.
-- **03 Array ADT**: Comprehensive examples of array operations, including creating arrays in heap and stack memory, displaying elements, appending, inserting, deleting, and searching using linear and binary search techniques. Additionally, programs cover advanced operations like getting and setting elements, finding maximum and minimum values, calculating sum and average, rearranging negative and positive numbers, checking if an array is sorted, and inserting elements into sorted arrays.
+- **03 Array ADT**: Comprehensive examples of array operations, including creating arrays in heap and stack memory, displaying elements, appending, inserting, deleting, and searching using linear and binary search techniques. Additionally, programs cover advanced operations like getting and setting elements, finding maximum and minimum values, calculating sum and average, rearranging negative and positive numbers, checking if an array is sorted,inserting elements into sorted arrays, merging arrays and set operatios.
 
 ---
 
