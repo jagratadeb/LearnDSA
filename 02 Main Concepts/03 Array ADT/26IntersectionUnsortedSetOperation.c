@@ -32,33 +32,35 @@ int main()
     return 0;
 }
 
+// Function to display the elements of the array
 void display(struct Array arr)
 {
     for (int i = 0; i < arr.length; i++)
     {
-        printf("%d ", arr.A[i]);
+        printf("%d ", arr.A[i]); // Print each element of the array
     }
-    printf("\n");
+    printf("\n"); // Print a newline after displaying all elements
 }
 
+// Function to find the intersection of two unsorted arrays
 struct Array *intersectionUnsorted(struct Array *arr1, struct Array *arr2)
 {
-    int k = 0;
-    struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array));
-    arr3->length = 0;
-    arr3->size = arr1->length;
+    int k = 0; // Pointer for the result array
+    struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array)); // Allocate memory for the intersection array
+    arr3->length = 0; // Initialize the length of the result array
+    arr3->size = arr1->length; // Set the size of the result array
 
+    // Find common elements between arr1 and arr2
     for (int i = 0; i < arr2->length; i++)
     {
         for (int j = 0; j < arr1->length; j++)
         {
-            if (arr2->A[i] == arr1->A[j])
+            if (arr2->A[i] == arr1->A[j]) // Check if the element is common
             {
-
-                arr3->A[k++] = arr2->A[i];
+                arr3->A[k++] = arr2->A[i]; // Add the common element to arr3
             }
         }
     }
-    arr3->length = k;
-    return arr3;
+    arr3->length = k; // Set the length of the result array
+    return arr3; // Return the intersection array
 }

@@ -32,44 +32,48 @@ int main()
     return 0;
 }
 
+// Function to display the elements of the array
 void display(struct Array arr)
 {
     for (int i = 0; i < arr.length; i++)
     {
-        printf("%d ", arr.A[i]);
+        printf("%d ", arr.A[i]); // Print each element of the array
     }
-    printf("\n");
+    printf("\n"); // Print a newline after displaying all elements
 }
 
+// Function to find the union of two unsorted arrays
 struct Array *unionUnsorted(struct Array *arr1, struct Array *arr2)
 {
-    int k = 0;
-    struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array));
-    arr3->length = 0;
-    arr3->size = arr1->length + arr2->length;
+    int k = 0; // Pointer for the result array
+    struct Array *arr3 = (struct Array *)malloc(sizeof(struct Array)); // Allocate memory for the union array
+    arr3->length = 0; // Initialize the length of the result array
+    arr3->size = arr1->length + arr2->length; // Set the size of the result array
 
+    // Copy all elements from arr1 to arr3
     for (int i = 0; i < arr1->length; i++)
     {
         arr3->A[k++] = arr1->A[i];
         arr3->length++;
     }
 
+    // Add elements from arr2 to arr3 if they are not duplicates
     for (int i = 0; i < arr2->length; i++)
     {
-        int isDuplicate = 0;
+        int isDuplicate = 0; // Flag to check for duplicates
         for (int j = 0; j < arr1->length; j++)
         {
-            if (arr2->A[i] == arr1->A[j])
+            if (arr2->A[i] == arr1->A[j]) // Check if the element is a duplicate
             {
                 isDuplicate = 1;
                 break;
             }
         }
-        if (!isDuplicate)
+        if (!isDuplicate) // If not a duplicate, add to arr3
         {
             arr3->A[k++] = arr2->A[i];
             arr3->length++;
         }
     }
-    return arr3;
+    return arr3; // Return the union array
 }

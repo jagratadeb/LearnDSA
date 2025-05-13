@@ -28,44 +28,52 @@ int main()
     return 0;
 }
 
+// Function to display the elements of the array
 void display(struct Array arr)
 {
     for (int i = 0; i < arr.length; i++)
     {
-        printf("%d ", arr.A[i]); // Print each element
+        printf("%d ", arr.A[i]); // Print each element of the array
     }
     printf("\n"); // Print a newline after displaying all elements
 }
 
+// Function to merge two sorted arrays into a single sorted array
 struct Array *merge(struct Array *arr1, struct Array *arr2)
 {
-    int i = 0;
-    int j = 0;
-    int k = 0;
+    int i = 0; // Pointer for arr1
+    int j = 0; // Pointer for arr2
+    int k = 0; // Pointer for arr3
     struct Array *arr3;
-    arr3 = (struct Array *)malloc(sizeof(struct Array));
+    arr3 = (struct Array *)malloc(sizeof(struct Array)); // Allocate memory for the merged array
 
+    // Merge elements from both arrays in sorted order
     while (i < arr1->length && j < arr2->length)
     {
         if (arr1->A[i] < arr2->A[j])
         {
-            arr3->A[k++] = arr1->A[i++];
+            arr3->A[k++] = arr1->A[i++]; // Add element from arr1 to arr3
         }
         else
         {
-            arr3->A[k++] = arr2->A[j++];
+            arr3->A[k++] = arr2->A[j++]; // Add element from arr2 to arr3
         }
     }
+
+    // Add remaining elements from arr1, if any
     for (; i < arr1->length; i++)
     {
         arr3->A[k++] = arr1->A[i];
     }
+
+    // Add remaining elements from arr2, if any
     for (; j < arr2->length; j++)
     {
         arr3->A[k++] = arr2->A[j];
     }
-    arr3->length = arr1->length + arr2->length;
-    arr3->size = 10;
 
-    return arr3;
+    arr3->length = arr1->length + arr2->length; // Set the length of the merged array
+    arr3->size = 10; // Set the size of the merged array
+
+    return arr3; // Return the merged array
 }
