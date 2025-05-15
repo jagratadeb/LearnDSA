@@ -23,6 +23,7 @@ int max(int arr[], int size)
     }
     return max;
 }
+
 int min(int arr[], int size)
 {
     int min = arr[0];
@@ -40,7 +41,7 @@ void findMissing(int arr[], int size, int high, int low)
 {
     int *H;
     H = (int *)malloc(size * sizeof(int));
-    for (int i = 0; i < high + 1; i++)
+    for (int i = 0; i <= high; i++)
     {
         H[i] = 0;
     }
@@ -48,7 +49,7 @@ void findMissing(int arr[], int size, int high, int low)
     {
         H[arr[i]]++;
     }
-    for (int i = low; i < size; i++)
+    for (int i = low; i <= high; i++)
     {
         if (H[i] == 0)
         {
@@ -60,7 +61,7 @@ void findMissing(int arr[], int size, int high, int low)
 
 int main()
 {
-    int arr[10] = {3, 7, 4, 9, 12, 6, 1, 11, 2, 10};
+    int arr[10] = {8,10,9,5,11,12,14,7,4,15};
     int size = sizeof(arr) / sizeof(int);
     int minElement = min(arr, size);
     int maxElement = max(arr, size);

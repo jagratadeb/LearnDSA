@@ -10,7 +10,7 @@ void display(int arr[], int size)
     printf("\n");
 }
 
-void findSingleMissing(int arr[], int size)
+void findMultipleMissing(int arr[], int size)
 {
     int low = arr[0];
     int high = arr[size - 1];
@@ -35,6 +35,6 @@ int main()
     int size = sizeof(arr) / sizeof(int);
     display(arr, size);
 
-    findSingleMissing(arr, size);
+    findMultipleMissing(arr, size);
     return 0;
 }
