@@ -26,13 +26,13 @@ int main()
     // Declaration + Initialization
     char Y[5] = {'A', 'B', 'C', 'D', 'E'};
     size = sizeof(Y) / sizeof(char);
-    display(Y,size);
+    display(Y, size);
 
     /* If the size is not mentioned, then the array will be
     sized automatically based on the number of elements in it.*/
     char Z[] = {'H', 'E', 'L', 'L', 'O'};
     size = sizeof(Z) / sizeof(char);
-    display(Z,size);
+    display(Z, size);
 
     return 0;
 }
