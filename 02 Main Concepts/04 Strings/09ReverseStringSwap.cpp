@@ -10,7 +10,7 @@ int main()
     {
     }
     length = i;
-    
+
     for (i = 0; i < (length) / 2; i++)
     {
         int temp = string[i];
