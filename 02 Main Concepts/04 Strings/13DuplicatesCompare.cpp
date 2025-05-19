@@ -12,7 +12,6 @@ void findDuplicate(char *string)
     for (int i = 0; i < length - 1; i++)
     {
         if (string[i] == string[i + 1] && lastDuplicate != string[i])
-
         {
             lastDuplicate = string[i];
             cout << "Duplicate Character: " << string[i] << endl;
@@ -24,5 +23,6 @@ int main()
 {
     char str[] = "PROGRAMMING"; // Sorted input string
     findDuplicate(str);
+    cout << str << endl;
     return 0;
 }

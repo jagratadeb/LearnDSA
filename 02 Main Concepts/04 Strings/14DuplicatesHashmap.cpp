@@ -26,7 +26,7 @@ void findDuplicate(char *string)
 
 int main()
 {
-    char string[] = "Jagrata Deb";
+    char string[] = "This code works for both sorted and unsorted string, it can find duplication in lowercase, uppercase , digit and special characters.";
     cout << "Original String: " << string << endl;
     findDuplicate(string);
     return 0;
