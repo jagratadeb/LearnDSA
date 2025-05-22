@@ -75,7 +75,7 @@ int main()
     cout << "\nThe diagonal matrix is:\n";
     d.display();
 
-    // Example: get a value
+
     int row, col;
     cout << "\nEnter row and column to get value: ";
     cin >> row >> col;
