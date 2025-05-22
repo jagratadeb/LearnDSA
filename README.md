@@ -1,6 +1,20 @@
 # LearnDSA
 
-LearnDSA is a collection of simple and practical C and C++ programs designed to help you understand and practice Data Structures and Algorithms (DSA). The repository covers a wide range of fundamental topics, including arrays, strings, recursion, pointers, structures, and object-oriented programming. Each folder contains well-organized example programs that demonstrate key concepts and common operations, making it easy for beginners and intermediate learners to explore and experiment with DSA in C and C++.
+LearnDSA is a curated collection of simple, practical C and C++ programs aimed at helping you learn and practice Data Structures and Algorithms (DSA). This repository covers essential topics such as arrays, strings, recursion, pointers, structures, and object-oriented programming. Each folder contains organized, hands-on example programs that illustrate key concepts and common operations, making it easy for both beginners and intermediate learners to explore, experiment, and strengthen their understanding of DSA using C and C++.
+
+## Topics Covered
+- Basic Concepts
+- For Each Loop
+- Structures
+- Pointers
+- Reference
+- Functions
+- Object Orientation
+- Recursion
+- Array Basics
+- Array ADT
+- Strings
+- Matrix
 
 ## How to Use
 
