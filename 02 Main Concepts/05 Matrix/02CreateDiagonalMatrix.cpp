@@ -12,7 +12,7 @@ public:
     Diagonal(int n)
     {
         this->dimension = n;
-        A = new int[dimension];
+        A = new int[dimension]; 
     }
 
     void set(int i, int j, int ele);
@@ -21,7 +21,7 @@ public:
     ~Diagonal()
     {
         delete[] A; 
-    };
+    }
 };
 
 void Diagonal::set(int i, int j, int ele)
