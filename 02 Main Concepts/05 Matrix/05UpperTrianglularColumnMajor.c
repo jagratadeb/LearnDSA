@@ -9,17 +9,18 @@ struct Matrix
 
 void set(struct Matrix *m, int i, int j, int ele)
 {
-    if (i >= j)
-    { // Row Major Formula
-        m->A[(i * (i - 1)) / 2 + (j - 1)] = ele;
+    if (i <= j)
+    {
+        // Column Major Formula for Upper Triangular
+        m->A[j * (j - 1) / 2 + (i - 1)] = ele;
     }
 }
 
 int get(struct Matrix m, int i, int j)
 {
-    if (i >= j)
+    if (i <= j)
     {
-        return m.A[(i * (i - 1)) / 2 + (j - 1)];
+        return m.A[j * (j - 1) / 2 + (i - 1)];
     }
     return 0;
 }
@@ -30,8 +31,8 @@ void display(struct Matrix m)
     {
         for (int j = 1; j <= m.dimension; j++)
         {
-            if (i >= j)
-                printf("%d ", m.A[(i * (i - 1)) / 2 + (j - 1)]);
+            if (i <= j)
+                printf("%d ", m.A[j * (j - 1) / 2 + (i - 1)]);
             else
                 printf("0 ");
         }
