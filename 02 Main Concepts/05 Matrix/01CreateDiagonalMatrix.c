@@ -24,9 +24,9 @@ int get(struct Matrix m, int i, int j)
 void display(struct Matrix m)
 {
     int i, j;
-    for (i = 1; i <= m.dimension; i++)
+    for (i = 0; i < m.dimension; i++)
     {
-        for (j = 1; j <= m.dimension; j++)
+        for (j = 0; j < m.dimension; j++)
         {
             if (i == j)
                 printf("%d ", m.A[i]);
@@ -40,12 +40,13 @@ void display(struct Matrix m)
 int main()
 {
     struct Matrix m;
-    m.dimension = 4;
+    m.dimension = 5;
 
-    set(&m, 1, 1, 5);
-    set(&m, 2, 2, 10);
-    set(&m, 3, 3, 15);
-    set(&m, 4, 4, 20);
+    set(&m, 0, 0, 5);
+    set(&m, 1, 1, 10);
+    set(&m, 2, 2, 15);
+    set(&m, 3, 3, 20);
+    set(&m, 4, 4, 25);
 
     printf("Element at (4,4): %d\n", get(m, 3, 3));
     printf("Element at (2,2): %d\n", get(m, 1, 1));
