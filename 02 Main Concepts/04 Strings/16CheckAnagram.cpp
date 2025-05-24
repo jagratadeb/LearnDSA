@@ -10,6 +10,7 @@ bool areAnagrams(const char A[], const char B[])
         return false; // Different lengths, not an anagram
     }
 
+    // Will work with H[128] but that will be limited only to (A-Z,a-z,0-9,!@#$%^&*())
     int H[256] = {0}; // ASCII character frequency array
 
     // count occurrences of characters in A
