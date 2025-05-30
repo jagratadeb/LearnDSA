@@ -16,7 +16,7 @@ LearnDSA is a curated collection of simple, practical C and C++ programs designe
   - [`02 Array Basics`](./02%20Main%20Concepts/02%20Array%20Basics/)
   - [`03 Array ADT`](./02%20Main%20Concepts/03%20Array%20ADT/)
   - [`04 Strings`](./02%20Main%20Concepts/04%20Strings/)
-  - [`Matrix`](./02%20Main%20Concepts/05%20Matrix/)
+  - [`05 Matrix`](./02%20Main%20Concepts/05%20Matrix/)
   - [`06 Polynomials`](./02%20Main%20Concepts/06%20Polynomials/)
 
 ## How to Use
