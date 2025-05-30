@@ -1,20 +1,23 @@
 # LearnDSA
 
-LearnDSA is a curated collection of simple, practical C and C++ programs aimed at helping you learn and practice Data Structures and Algorithms (DSA). This repository covers essential topics such as arrays, strings, recursion, pointers, structures, and object-oriented programming. Each folder contains organized, hands-on example programs that illustrate key concepts and common operations, making it easy for both beginners and intermediate learners to explore, experiment, and strengthen their understanding of DSA using C and C++.
+LearnDSA is a curated collection of simple, practical C and C++ programs designed to help you master Data Structures and Algorithms (DSA). This repository covers a wide range of foundational and advanced topics, including arrays, strings, recursion, pointers, structures, and object-oriented programming. Each folder contains well-organized, hands-on example programs that demonstrate key concepts and common operations, making it easy for both beginners and intermediate learners to explore, experiment, and build a strong understanding of DSA using C and C++.
 
 ## Topics Covered
 - Basic Concepts
-- For Each Loop
-- Structures
-- Pointers
-- Reference
-- Functions
-- Object Orientation
-- Recursion
-- Array Basics
-- Array ADT
-- Strings
-- Matrix
+  - [`01 For Each Loop`](./01%20Basic%20Concepts/01%20For%20Each%20Loop/)
+  - [`02 Structures`](./01%20Basic%20Concepts/02%20Structures/)
+  - [`03 Pointers`](./01%20Basic%20Concepts/03%20Pointers/)
+  - [`04 Reference`](./01%20Basic%20Concepts/04%20Reference/)
+  - [`05 Functions`](./01%20Basic%20Concepts/05%20Functions/)
+  - [`06 Object Orientation`](./01%20Basic%20Concepts/06%20Object%20Orientation/)
+  - [`07 Patterns`](./01%20Basic%20Concepts/07%20Patterns/)
+- Main Concepts
+  - [`01 Recursion`](./02%20Main%20Concepts/01%20Recursion/)
+  - [`02 Array Basics`](./02%20Main%20Concepts/02%20Array%20Basics/)
+  - [`03 Array ADT`](./02%20Main%20Concepts/03%20Array%20ADT/)
+  - [`04 Strings`](./02%20Main%20Concepts/04%20Strings/)
+  - [`Matrix`](./02%20Main%20Concepts/05%20Matrix/)
+  - [`06 Polynomials`](./02%20Main%20Concepts/06%20Polynomials/)
 
 ## How to Use
 
