@@ -18,6 +18,7 @@ LearnDSA is a curated collection of simple, practical C and C++ programs designe
   - [`04 Strings`](./02%20Main%20Concepts/04%20Strings/)
   - [`05 Matrix`](./02%20Main%20Concepts/05%20Matrix/)
   - [`06 Polynomials`](./02%20Main%20Concepts/06%20Polynomials/)
+  - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/)
 
 ## How to Use
 
