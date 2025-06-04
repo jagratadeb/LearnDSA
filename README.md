@@ -1,3 +1,5 @@
+<a href="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d"><img src="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d.svg" alt="wakatime"></a>
+
 # LearnDSA
 
 LearnDSA is a curated collection of simple, practical C and C++ programs designed to help you master Data Structures and Algorithms (DSA). This repository covers a wide range of foundational and advanced topics, including arrays, strings, recursion, pointers, structures, and object-oriented programming. Each folder contains well-organized, hands-on example programs that demonstrate key concepts and common operations, making it easy for both beginners and intermediate learners to explore, experiment, and build a strong understanding of DSA using C and C++.
