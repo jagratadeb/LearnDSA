@@ -1,5 +1,3 @@
-// This code inserts the node at any given position and creates a LL by just using the insert function.
-
 #include <iostream>
 using namespace std;
 
