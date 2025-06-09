@@ -1,6 +1,23 @@
 #include <iostream>
 using namespace std;
 
+char *removeChar(char *string, char ch);
+
+int main()
+{
+    // Initialize the string
+    char str[] = "character";
+    char ch;
+    cout << "Enter the character to delete:";
+    // Take character input from user
+    cin >> ch;
+
+    // Call the function to remove the character
+    char *result = removeChar(str, ch);
+    cout << "New String: " << result << endl;
+    return 0;
+}
+
 // Function to remove all occurrences of a character from a string
 char *removeChar(char *string, char ch)
 {
@@ -24,19 +41,4 @@ char *removeChar(char *string, char ch)
     // Null-terminate the modified string
     string[j] = '\0';
     return string;
-}
-
-int main()
-{
-    // Initialize the string
-    char str[] = "character";
-    char ch;
-    cout << "Enter the character to delete:";
-    // Take character input from user
-    cin >> ch;
-
-    // Call the function to remove the character
-    char *result = removeChar(str, ch);
-    cout << "New String: " << result << endl;
-    return 0;
 }

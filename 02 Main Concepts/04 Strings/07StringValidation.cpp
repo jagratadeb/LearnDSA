@@ -1,6 +1,19 @@
 #include <iostream>
 using namespace std;
 
+bool valid(char *string);
+
+int main()
+{
+    char str[] = "Ani?123";
+
+    if (valid(str))
+        cout << "Valid string (only letters and digits)." << endl;
+    else
+        cout << "Invalid string (contains special characters)." << endl;
+    return 0;
+}
+
 bool valid(char *string)
 {
     int i;
@@ -14,15 +27,4 @@ bool valid(char *string)
         }
     }
     return true;
-}
-
-int main()
-{
-    char str[] = "Ani?123";
-
-    if (valid(str))
-        cout << "Valid string (only letters and digits)." << endl;
-    else
-        cout << "Invalid string (contains special characters)." << endl;
-    return 0;
 }

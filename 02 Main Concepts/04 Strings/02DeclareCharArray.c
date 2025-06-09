@@ -1,18 +1,6 @@
 #include <stdio.h>
 
-void display(char arr[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        printf("%c ", arr[i]);
-    }
-    printf("\n");
-    for (int i = 0; i < size; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-}
+void display(char arr[], int size);
 
 int main()
 {
@@ -35,4 +23,18 @@ int main()
     display(Z, size);
 
     return 0;
+}
+
+void display(char arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        printf("%c ", arr[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 }

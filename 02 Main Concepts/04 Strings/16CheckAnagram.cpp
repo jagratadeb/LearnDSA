@@ -3,6 +3,25 @@
 
 using namespace std;
 
+bool areAnagrams(const char A[], const char B[]);
+
+int main()
+{
+    char A[] = "listen";
+    char B[] = "silent";
+
+    if (areAnagrams(A, B))
+    {
+        cout << "YES, t hey are anagrams!" << endl;
+    }
+    else
+    {
+        cout << "NO, they are not anagrams!" << endl;
+    }
+
+    return 0;
+}
+
 bool areAnagrams(const char A[], const char B[])
 {
     if (strlen(A) != strlen(B))
@@ -35,21 +54,4 @@ bool areAnagrams(const char A[], const char B[])
     }
 
     return true;
-}
-
-int main()
-{
-    char A[] = "listen";
-    char B[] = "silent";
-
-    if (areAnagrams(A, B))
-    {
-        cout << "YES, t hey are anagrams!" << endl;
-    }
-    else
-    {
-        cout << "NO, they are not anagrams!" << endl;
-    }
-
-    return 0;
 }

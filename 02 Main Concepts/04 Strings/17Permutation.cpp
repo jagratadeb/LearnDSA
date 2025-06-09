@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+void permutation(char s[], int k);
+
+int main()
+{
+    char string[] = "ABC";
+    permutation(string, 0);
+    return 0;
+}
+
 void permutation(char s[], int k)
 {
     static int A[10] = {0};
@@ -24,11 +33,4 @@ void permutation(char s[], int k)
             }
         }
     }
-}
-
-int main()
-{
-    char string[] = "ABC";
-    permutation(string, 0);
-    return 0;
 }

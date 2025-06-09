@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void findDuplicate(char *string);
+
+int main()
+{
+    char string[] = "This code works for both sorted and unsorted string, it can find duplication in lowercase, uppercase , digit and special characters.";
+    cout << "Original String: " << string << endl;
+    findDuplicate(string);
+    return 0;
+}
+
 void findDuplicate(char *string)
 {
     int length;
@@ -22,12 +32,4 @@ void findDuplicate(char *string)
             printf("Element %c appears %d times\n", i, H[i]);
         }
     }
-}
-
-int main()
-{
-    char string[] = "This code works for both sorted and unsorted string, it can find duplication in lowercase, uppercase , digit and special characters.";
-    cout << "Original String: " << string << endl;
-    findDuplicate(string);
-    return 0;
 }

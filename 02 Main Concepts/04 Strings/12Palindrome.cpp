@@ -1,6 +1,32 @@
 #include <iostream>
 using namespace std;
 
+char *reverse(char *string);
+int compare(char *arr1, char *arr2);
+
+int main()
+{
+    char string[] = "PYTHON";
+    cout << "Original String: " << string << endl;
+
+    char *reversedString;
+    reversedString = reverse(string);
+    cout << "Reversed String: " << reversedString << endl;
+
+    int isSame = compare(string, reversedString);
+
+    if (isSame)
+    {
+        cout << "Yes, it is a palindrome." << endl;
+    }
+    else
+    {
+        cout << "No, it is not a palindrome." << endl;
+    }
+
+    return 0;
+}
+
 char *reverse(char *string)
 {
     int i;
@@ -36,27 +62,4 @@ int compare(char *arr1, char *arr2)
         i++;
     }
     return isSame;
-}
-
-int main()
-{
-    char string[] = "PYTHON";
-    cout << "Original String: " << string << endl;
-
-    char *reversedString;
-    reversedString = reverse(string);
-    cout << "Reversed String: " << reversedString << endl;
-
-    int isSame = compare(string, reversedString);
-
-    if (isSame)
-    {
-        cout << "Yes, it is a palindrome." << endl;
-    }
-    else
-    {
-        cout << "No, it is not a palindrome." << endl;
-    }
-
-    return 0;
 }

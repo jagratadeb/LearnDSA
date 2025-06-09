@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void findDuplicate(char *string);
+
+int main()
+{
+    char str[] = "PROGRAMMING"; // Sorted input string
+    findDuplicate(str);
+    cout << str << endl;
+    return 0;
+}
+
 // Function to find duplicate characters in a sorted string
 void findDuplicate(char *string)
 {
@@ -17,12 +27,4 @@ void findDuplicate(char *string)
             cout << "Duplicate Character: " << string[i] << endl;
         }
     }
-}
-
-int main()
-{
-    char str[] = "PROGRAMMING"; // Sorted input string
-    findDuplicate(str);
-    cout << str << endl;
-    return 0;
 }

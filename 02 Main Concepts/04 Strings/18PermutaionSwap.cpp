@@ -2,6 +2,17 @@
 #include <string.h>
 using namespace std;
 
+void permutation(char s[], int l, int h);
+
+int main()
+{
+    char string[] = "ABC";
+    int lastIndex = strlen(string) - 1;
+    permutation(string, 0, lastIndex);
+
+    return 0;
+}
+
 void permutation(char s[], int l, int h)
 {
     int i;
@@ -18,13 +29,4 @@ void permutation(char s[], int l, int h)
             swap(s[l], s[i]);
         }
     }
-}
-
-int main()
-{
-    char string[] = "ABC";
-    int lastIndex = strlen(string) - 1;
-    permutation(string, 0, lastIndex);
-
-    return 0;
 }
