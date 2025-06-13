@@ -1,5 +1,7 @@
 # LearnDSA
-
+![GitHub repo size](https://img.shields.io/github/repo-size/jagratadeb/LearnDSA?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/jagratadeb/LearnDSA?style=for-the-badge)
+<a href="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d"><img src="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d.svg" alt="wakatime"></a>
 ## Project Overview
 
 **LearnDSA** is a comprehensive collection of code examples, notes, and patterns designed to help learners and developers master Data Structures and Algorithms (DSA) using C and C++. The repository is organized by topic, covering fundamental concepts, advanced techniques, and practical coding patterns. It serves as a reference and practice resource for students, educators, and professionals preparing for technical interviews or deepening their understanding of DSA.
@@ -51,9 +53,7 @@ Below is an organized overview of the repository's structure, with brief descrip
 
 ### Building and Running Code
 - **C++ Files:**
-  - Use the provided VS Code build task (`C/C++: g++.exe build active file`) to compile the currently open file.
-
-  - Alternatively, you can run the following command in the terminal:
+  - You can run the following command in the terminal:
     ```sh
     g++ <filename.cpp> -o <output.exe>
     ```
@@ -65,9 +65,7 @@ Below is an organized overview of the repository's structure, with brief descrip
 
 
 - **C Files:**
-  - Use the provided VS Code build task (`C/C++: gcc.exe build active file`) to compile the currently open file.
-
-  - Alternatively, you can run the following command in the terminal:
+  - You can run the following command in the terminal:
     ```sh
     gcc <filename.c> -o <output.exe>
     ```
