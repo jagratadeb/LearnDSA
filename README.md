@@ -1,5 +1,4 @@
 # LearnDSA
-![GitHub repo size](https://img.shields.io/github/repo-size/jagratadeb/LearnDSA?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jagratadeb/LearnDSA?style=for-the-badge)
 <a href="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d"><img src="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d.svg" alt="wakatime"></a>
 ## Project Overview
