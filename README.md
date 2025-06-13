@@ -6,25 +6,17 @@
 
 ## Directory and File Structure
 
-Below is an organized overview of the repository's structure, with brief descriptions for each folder and file:
+Below is an organized overview of the repository's structure, with brief descriptions for each folder:
 
 ### 01 Basic Concepts/
 - **Purpose:** Foundational programming concepts in C/C++.
-  - **01 For Each Loop/**
-    - `01forEachLoop.cpp`: Demonstrates the use of for-each loops in C++.
-  - **02 Structures/**
-    - `01structure.c`: Introduction to structures in C.
-  - **03 Pointers/**
-    - `01pointer.c`: Basics of pointers in C.
-    - `01structPointer.c`: Using pointers with structures.
-  - **04 Reference/**
-    - `01reference.cpp`: Reference variables and their usage in C++.
-  - **05 Functions/**
-    - **Array/**, **Modular Code/**, **Monolithic Code/**, **Pass Parameter in Func/**, **Structure/**: Subfolders for function-related examples (add files as needed).
-  - **06 Object Orientation/**
-    - `001OOPExample1.cpp` to `006OOPExample6.cpp`: Stepwise examples illustrating object-oriented programming concepts in C++.
-  - **07 Patterns/**
-    - `01SolidRectangle.cpp` to `25HollowSquare.cpp`: C++ programs for various pattern printing problems (rectangles, pyramids, diamonds, triangles, etc.).
+  - [`01 For Each Loop`](./01%20Basic%20Concepts/01%20For%20Each%20Loop/): Demonstrates the use of for-each loops in C++ for iterating over collections.
+  - [`02 Structures`](./01%20Basic%20Concepts/02%20Structures/): Introduction to user-defined data types using structures in C.
+  - [`03 Pointers`](./01%20Basic%20Concepts/03%20Pointers/): Basics of pointers, pointer arithmetic, and pointers with structures in C.
+  - [`04 Reference`](./01%20Basic%20Concepts/04%20Reference/): Reference variables and their usage in C++ for efficient memory access.
+  - [`05 Functions`](./01%20Basic%20Concepts/05%20Functions/): Function concepts including arrays as parameters, modular vs. monolithic code, parameter passing, and functions with structures.
+  - [`06 Object Orientation`](./01%20Basic%20Concepts/06%20Object%20Orientation/): Stepwise examples illustrating object-oriented programming concepts in C++ (classes, objects, encapsulation, etc.).
+  - [`07 Patterns`](./01%20Basic%20Concepts/07%20Patterns/): C++ programs for various pattern printing problems (rectangles, pyramids, diamonds, triangles, and more).
 
 ### 02 Main Concepts/
 - **Purpose:** Core DSA topics and advanced programming techniques.
