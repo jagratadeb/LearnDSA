@@ -50,14 +50,38 @@ Below is an organized overview of the repository's structure, with brief descrip
    ```
 
 ### Building and Running Code
-- **C/C++ Files:**
-  - Use the provided VS Code build task (`C/C++: gcc.exe build active file`) to compile the currently open file.
-  - Or, compile manually:
+- **C++ Files:**
+  - Use the provided VS Code build task (`C/C++: g++.exe build active file`) to compile the currently open file.
+
+  - Alternatively, you can run the following command in the terminal:
     ```sh
-    gcc <filename.c> -o <output.exe>
+    g++ <filename.cpp> -o <output.exe>
+    ```
+
+  - Then execute the compiled program:
+    ```sh
     ./<output.exe>
     ```
-    For C++ files, use `g++` instead of `gcc`.
+
+
+- **C Files:**
+  - Use the provided VS Code build task (`C/C++: gcc.exe build active file`) to compile the currently open file.
+
+  - Alternatively, you can run the following command in the terminal:
+    ```sh
+    gcc <filename.c> -o <output.exe>
+    ```
+
+  - Then execute the compiled program:
+    ```sh
+    ./<output.exe>
+    ```
+
+### Example Commands
+| Language| Compile | Run |
+|---------|---------|-----|
+| C++| g++ hello.cpp -o hello | ./hello |
+| C| gcc hello.c -o hello | ./hello |
 
 ### Contributing
 - Fork the repository and create a new branch for your code improvements or additions.
