@@ -27,7 +27,7 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`04 Strings`](./02%20Main%20Concepts/04%20Strings/): String declaration, manipulation, validation, reversal, comparison, palindrome checks, and more.
   - [`05 Matrix`](./02%20Main%20Concepts/05%20Matrix/): Matrix operations such as addition, subtraction, multiplication, and transposition.
   - [`06 Polynomials`](./02%20Main%20Concepts/06%20Polynomials/): Implementation of polynomial data structures and algorithms for polynomial addition, multiplication, and evaluation.
-  - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/): Singly and doubly linked list implementations, including insertion, deletion, traversal, and common linked list algorithms.
+  - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/): Singly and doubly (both circular and linear) linked list implementations, including insertion, deletion, traversal, and common linked list algorithms.
 
 
 ## How to Use This Repository
@@ -98,6 +98,6 @@ Below is an organized overview of the repository's structure, with brief descrip
   - Email: jagratadeb2004@gmail.com
 
 ---
-Feel free to explore, learn, and contribute to this repository!
+Feel free to explore, learn, and contribute (check out contribution guidelines) to this repository!
 
 
