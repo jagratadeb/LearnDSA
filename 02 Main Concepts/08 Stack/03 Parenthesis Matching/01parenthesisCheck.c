@@ -45,6 +45,7 @@ char pop(struct Stack *st)
     }
 }
 
+// Check if the expression has balanced parenthesis
 int isBalanced(char *exp)
 {
     struct Stack st;
