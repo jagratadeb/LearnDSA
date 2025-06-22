@@ -85,12 +85,12 @@ char *InfixToPostfix(char *infix)
                 pop(&st); // Remove '(' from stack
             i++;
         }
-        else // Operator: pop higher/equal precedence, then push
+        else // Operator: pop higher/equal precedence (left-associative), then push
         {
-            if (pre(infix[i]) > pre(st.s[st.top]))
-                push(&st, infix[i++]);
-            else
+            // Pop from stack while precedence is greater or equal (left-associative)
+            while (pre(infix[i]) <= pre(st.s[st.top]) && st.s[st.top] != '#')
                 postfix[j++] = pop(&st);
+            push(&st, infix[i++]);
         }
     }
     // Pop any remaining operators from stack
