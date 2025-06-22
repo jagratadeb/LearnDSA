@@ -103,7 +103,7 @@ char *InfixToPostfix(char *infix)
 
 int main()
 {
-    char *infix = "a+(b*c)-d/e";
+    char *infix = "A+B*(C+D)/F+D*E";
     char *postfix = InfixToPostfix(infix);
     printf("Infix Expression   : %s\n", infix);
     printf("Postfix Expression : %s\n", postfix);
