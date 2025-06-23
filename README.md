@@ -29,6 +29,7 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`06 Polynomials`](./02%20Main%20Concepts/06%20Polynomials/): Implementation of polynomial data structures and algorithms for polynomial addition, multiplication, and evaluation.
   - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/): Singly and doubly (both circular and linear) linked list implementations, including insertion, deletion, traversal, and common linked list algorithms.
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
+  - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
 
 
 ## How to Use This Repository
