@@ -4,7 +4,7 @@
 // n keeps track of the current number of elements in the queue
 // Q is the array that stores the queue elements
 
-// Insert elements in increasing order of priority (smallest first), then delete the last element
+// Insert elements in increasing order of priority (smallest first), then delete the first element (highest priority)
 
 // Insert an element in sorted order (increasing)
 void insert(int Q[], int n, int x)
@@ -34,15 +34,20 @@ void display(int Q[], int n)
     printf("\n");
 }
 
-// Delete the last element (lowest priority)
-void deleteLast(int n)
+// Delete the first element (highest priority)
+void deleteFirst(int Q[], int *n)
 {
-    if (n == 0)
+    if (*n == 0)
     {
         printf("Queue is empty!\n");
         return;
     }
-    printf("Deleted element\n");
+    printf("Deleted element: %d\n", Q[0]);
+    for (int i = 0; i < *n - 1; i++)
+    {
+        Q[i] = Q[i + 1];
+    }
+    (*n)--;
 }
 
 int main()
@@ -59,13 +64,12 @@ int main()
     }
     printf("Queue (increasing order): ");
     display(Q, n);
-    // Delete the last element (lowest priority)
+    // Delete the first element (highest priority)
     if (n > 0)
     {
-        deleteLast(n);
-        n--;
+        deleteFirst(Q, &n);
     }
-    printf("Queue after deleting last: ");
+    printf("Queue after deleting first: ");
     display(Q, n);
     return 0;
 }
