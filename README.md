@@ -31,6 +31,8 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
   - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
   - [`10 Tree`](./02%20Main%20Concepts/10%20Tree/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching).
+  - More advanced topics like **Graphs**, **Hashing**, and **Heaps** will be added in future.
+
 
 
 
