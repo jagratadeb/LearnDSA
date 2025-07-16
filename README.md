@@ -1,6 +1,10 @@
 # LearnDSA
 ![GitHub last commit](https://img.shields.io/github/last-commit/jagratadeb/LearnDSA?style=for-the-badge)
 <a href="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d"><img src="https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/ccee27fd-3eee-42c2-a02c-cb3c98ce858d.svg" alt="wakatime"></a>
+![C++](https://img.shields.io/badge/language-C%20/%20C++-blue?style=for-the-badge)
+
+
+
 ## Project Overview
 
 **LearnDSA** is a comprehensive collection of code examples, notes, and patterns designed to help learners and developers master Data Structures and Algorithms (DSA) using C and C++. The repository is organized by topic, covering fundamental concepts, advanced techniques, and practical coding patterns. It serves as a reference and practice resource for students, educators, and professionals preparing for technical interviews or deepening their understanding of DSA.
