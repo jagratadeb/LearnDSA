@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool areAnagrams(const char A[], const char B[]);
+bool areAnagrams(char A[], char B[]);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 
     if (areAnagrams(A, B))
     {
-        cout << "YES, t hey are anagrams!" << endl;
+        cout << "YES, they are anagrams!" << endl;
     }
     else
     {
@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 
-bool areAnagrams(const char A[], const char B[])
+bool areAnagrams(char A[], char B[])
 {
     if (strlen(A) != strlen(B))
     {
