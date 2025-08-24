@@ -35,6 +35,9 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
   - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
   - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching).
+  - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): To be added soon.
+  - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): To be added soon.
+  - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): To be added soon.
   - [`14 Divide and Conquer`](./02%20Main%20Concepts/14%20Divide%20and%20Conquer/): Introduction to divide and conquer algorithms, including merge sort, quick sort, and binary search.
   - More advanced topics like **Graphs**, **Hashing**, **Heaps** and **Dynamic Programming** will be added in future.
 
