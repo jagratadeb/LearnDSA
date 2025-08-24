@@ -31,7 +31,7 @@ void insert(int key)
     {
         r = t;
         if (key < t->data)
-            t = t->lchild; 
+            t = t->lchild;
         else if (key > t->data)
             t = t->rchild;
         else
