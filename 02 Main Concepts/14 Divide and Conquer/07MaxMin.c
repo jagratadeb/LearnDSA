@@ -43,7 +43,7 @@ struct Pair findMinMax(int arr[], int low, int high)
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int arr[] = {1, 3, 6, 4, 2, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     if (n == 0)
