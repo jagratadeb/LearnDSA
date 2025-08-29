@@ -38,7 +38,8 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): To be added soon.
   - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): To be added soon.
   - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): To be added soon.
-  - [`14 Divide and Conquer`](./02%20Main%20Concepts/14%20Divide%20and%20Conquer/): Introduction to divide and conquer algorithms, including merge sort, quick sort, and binary search.
+  - [`14 Divide and Conquer`](./02%20Main%20Concepts/14%20Divide%20and%20Conquer/): Introduction to divide and conquer algorithms, including merge sort, quick sort, max min, and binary search.
+  - [`15 Greedy Methods`](./02%20Main%20Concepts/15%20Greedy%20Methods/): Introduction to greedy algorithms, including activity selection, Huffman coding, and minimum spanning trees.
   - More advanced topics like **Graphs**, **Hashing**, **Heaps** and **Dynamic Programming** will be added in future.
 
 
