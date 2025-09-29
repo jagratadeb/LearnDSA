@@ -28,7 +28,7 @@ An AVL (Adelson-Velsky and Landis) tree is a self-balancing binary search tree (
 - If unbalanced, perform appropriate rotation.
 
 **Advantages:**
-- Guarantees $O(\log n)$ time for search, insert, and delete.
+- Guarantees `O(log n)` time for search, insert, and delete.
 - More balanced than a regular BST.
 
 **Disadvantages:**
