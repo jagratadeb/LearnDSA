@@ -8,8 +8,8 @@ An AVL (Adelson-Velsky and Landis) tree is a self-balancing binary search tree (
   ```
   Balance Factor = Height of Left Subtree - Height of Right Subtree
   ```
-- For every node, balance factor ∈ {–1, 0, 1}
-- Height of AVL tree with n nodes: $O(\log n)$
+- For every node, `balance factor ∈ {–1, 0, 1}`
+- Height of AVL tree with n nodes: `O(log n)`
 
 **Rotations (to maintain balance):**
 1. **LL Rotation** (Left-Left)
