@@ -5,7 +5,9 @@ An AVL (Adelson-Velsky and Landis) tree is a self-balancing binary search tree (
 
 **Properties:**
 - Each node has a balance factor:  
-  $Balance\ Factor = Height\ of\ Left\ Subtree - Height\ of\ Right\ Subtree$
+  ```
+  Balance Factor = Height of Left Subtree - Height of Right Subtree
+  ```
 - For every node, balance factor ∈ {–1, 0, 1}
 - Height of AVL tree with n nodes: $O(\log n)$
 
