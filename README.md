@@ -34,7 +34,7 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/): Singly and doubly (both circular and linear) linked list implementations, including insertion, deletion, traversal, and common linked list algorithms.
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
   - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
-  - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching).
+  - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching), AVL Trees, 2-3 Trees, and 2-3-4 Trees and Red-Black Trees.
   - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): To be added soon.
   - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): To be added soon.
   - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): To be added soon.
