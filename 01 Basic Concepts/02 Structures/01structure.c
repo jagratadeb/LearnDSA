@@ -2,20 +2,26 @@
 #include <string.h>
 
 // Define a structure named 'student'
-struct student
-{
-    char name[50]; // Array to hold the student's name
-    int roll;      // Integer to hold the student's roll number
+struct student {
+    char name[50]; // Student's name
+    int roll;      // Roll number
+    int dob;       // Date of birth
 };
 
-int main()
-{
-    struct student stu1;           // Declare a variable of type 'student'
-    stu1.roll = 2305;              // Assign a roll number to stu1
-    strcpy(stu1.name, "John Doe"); // Assign a name to stu1 using strcpy function
+int main() {
+    struct student stul; // Declare a variable of type 'student'
 
-    // Print the roll number and name of the student
-    printf("Roll number: %d\nName: %s\n", stu1.roll, stu1.name);
+    printf("What is the name of the student? ");
+    scanf("%s", stul.name);
 
-    return 0; // Return 0 to indicate successful execution
+    printf("\nWhat is the roll no of %s? ", stul.name);
+    scanf("%d", &stul.roll);
+
+    printf("\nWhat is the date of birth (DDMMYYYY) of %s? ", stul.name);
+    scanf("%d", &stul.dob);
+
+    // Print the details
+    printf("\nRoll number: %d\nName: %s\nDate of Birth: %d\n", stul.roll, stul.name, stul.dob);
+
+    return 0; // Successful execution
 }
