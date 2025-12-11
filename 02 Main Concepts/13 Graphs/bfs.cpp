@@ -30,7 +30,7 @@ int isEmpty()
     return (front == -1 || front > rear);
 }
 
-// BFS using your same logic
+// BFS 
 void bfs(int i)
 {
     printf("%d ", i);
