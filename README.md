@@ -35,13 +35,14 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
   - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
   - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching), AVL Trees, 2-3 Trees, and 2-3-4 Trees and Red-Black Trees.
-  - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): To be added soon.
+  - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): Includes insertion, deletion and heap sort.
   - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): Sorting techniques like bubble sort, insertion sort, selection sort, merge sort, quick sort,etc.
-  - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): To be added soon.
+  - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): Inlucdes BFS and DFS traversal techniques.
   - [`14 Divide and Conquer`](./02%20Main%20Concepts/14%20Divide%20and%20Conquer/): Introduction to divide and conquer algorithms, including merge sort, quick sort, max min, and binary search.
-  - [`15 Greedy Methods`](./02%20Main%20Concepts/15%20Greedy%20Methods/): Introduction to greedy algorithms, including activity selection, Huffman coding, and minimum spanning trees.
+  - [`15 Greedy Methods`](./02%20Main%20Concepts/15%20Greedy%20Methods/): Greedy algorithm concepts like fractional knapsack, optimal merge pattern, dijkstra, kruskal and prims.
   - [`16 Dynamic Programming`](./02%20Main%20Concepts/16%20Dynamic%20Programming/)
-  - More advanced topics like **Graphs**, **Hashing**, **Heaps** and **Backtracking** will be added in future.
+  - [`17 Hashing Techniques`](./02%20Main%20Concepts/17%20Hashing%20Techniques/): Implementation of chaining, linear probing, double hashing and quadratic probing.
+  - More advanced topics like **Backtracking** will be added in future.
 
 
 
