@@ -10,7 +10,7 @@ It is **not open for public contributions** (no pull requests or direct commits 
 - **Reference the repository** in your own work, giving proper credit.
 
 ## ❌ What You Should Not Do
-- Submit pull requests — they will not be merged.
+- Submit pull requests - they will be accepted only if they are bug fixes.
 - Request new features or enhancements — this repository is not actively developed for community input.
 - Use the repository for harmful, discriminatory, or unethical purposes.
 
