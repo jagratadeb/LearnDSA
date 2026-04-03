@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-**LearnDSA** is a comprehensive collection of code examples, notes, and patterns designed to help learners and developers master Data Structures and Algorithms (DSA) using C and C++. The repository is organized by topic, covering fundamental concepts, advanced techniques, and practical coding patterns. It serves as a reference and practice resource for students, educators, and professionals preparing for technical interviews or deepening their understanding of DSA.
+**LearnDSA** is a comprehensive collection of code examples, notes, and patterns designed to help learners and developers master Data Structures and Algorithms (DSA) using C and C++. The repository is organized by topic, covering fundamental concepts, advanced techniques, and practical coding patterns. It serves as both a reference and a practice resource for students, educators, and professionals preparing for technical interviews or strengthening their understanding of DSA.
 
 ## Directory and File Structure
 
@@ -34,15 +34,15 @@ Below is an organized overview of the repository's structure, with brief descrip
   - [`07 Linked List`](./02%20Main%20Concepts/07%20Linked%20List/): Singly and doubly (both circular and linear) linked list implementations, including insertion, deletion, traversal, and common linked list algorithms.
   - [`08 Stack`](./02%20Main%20Concepts/08%20Stack/): Stack data structure implementation using arrays and linked lists, including operations like push, pop, and stack applications (e.g., expression evaluation).
   - [`09 Queue`](./02%20Main%20Concepts/09%20Queue/): Queue data structure implementation using arrays and linked lists, including operations like enqueue, dequeue, and circular queue applications.
-  - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching), AVL Trees, 2-3 Trees, and 2-3-4 Trees and Red-Black Trees.
-  - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): Includes insertion, deletion and heap sort.
-  - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): Sorting techniques like bubble sort, insertion sort, selection sort, merge sort, quick sort,etc.
-  - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): Inlucdes BFS and DFS traversal techniques.
+  - [`10 Trees`](./02%20Main%20Concepts/10%20Trees/): Binary tree implementation, traversal algorithms (in-order, pre-order, post-order), and binary search tree operations (insertion, deletion, searching), along with AVL Trees, 2-3 Trees, 2-3-4 Trees, and Red-Black Trees.
+  - [`11 Heap`](./02%20Main%20Concepts/11%20Heap/): Includes insertion, deletion, and heap sort.
+  - [`12 Sorting Techniques`](./02%20Main%20Concepts/12%20Sorting%20Techniques/): Sorting algorithms such as bubble sort, insertion sort, selection sort, merge sort, and quick sort.
+  - [`13 Graphs`](./02%20Main%20Concepts/13%20Graphs/): Includes BFS and DFS traversal techniques.
   - [`14 Divide and Conquer`](./02%20Main%20Concepts/14%20Divide%20and%20Conquer/): Introduction to divide and conquer algorithms, including merge sort, quick sort, max min, and binary search.
-  - [`15 Greedy Methods`](./02%20Main%20Concepts/15%20Greedy%20Methods/): Greedy algorithm concepts like fractional knapsack, optimal merge pattern, dijkstra, kruskal and prims.
-  - [`16 Dynamic Programming`](./02%20Main%20Concepts/16%20Dynamic%20Programming/)
-  - [`17 Hashing Techniques`](./02%20Main%20Concepts/17%20Hashing%20Techniques/): Implementation of chaining, linear probing, double hashing and quadratic probing.
-  - More advanced topics like **Backtracking** will be added in future.
+  - [`15 Greedy Methods`](./02%20Main%20Concepts/15%20Greedy%20Methods/): Greedy algorithm concepts such as fractional knapsack, optimal merge pattern, Dijkstra, Kruskal, and Prim's algorithms.
+  - [`16 Dynamic Programming`](./02%20Main%20Concepts/16%20Dynamic%20Programming/): Dynamic programming concepts and classic optimization problems.
+  - [`17 Hashing Techniques`](./02%20Main%20Concepts/17%20Hashing%20Techniques/): Implementation of chaining, linear probing, double hashing, and quadratic probing.
+  - More advanced topics like **Backtracking** will be added in the future.
 
 
 
@@ -72,37 +72,37 @@ Below is an organized overview of the repository's structure, with brief descrip
 - **C++ Files:**
   - You can run the following command in the terminal:
     ```sh
-    g++ <filename.cpp> -o <output.exe>
+    g++ <filename.cpp> -o <output>
     ```
 
   - Then execute the compiled program:
     ```sh
-    ./<output.exe>
+    ./<output>
     ```
 
 
 - **C Files:**
   - You can run the following command in the terminal:
     ```sh
-    gcc <filename.c> -o <output.exe>
+    gcc <filename.c> -o <output>
     ```
 
   - Then execute the compiled program:
     ```sh
-    ./<output.exe>
+    ./<output>
     ```
 
 ### Example Commands
-| Language| Compile | Run |
-|---------|---------|-----|
-| C++| g++ hello.cpp -o hello | ./hello |
-| C| gcc hello.c -o hello | ./hello |
+| Language | Compile | Run |
+|----------|---------|-----|
+| C++      | g++ hello.cpp -o hello | ./hello |
+| C        | gcc hello.c -o hello | ./hello |
 
 ### Contributing
 - Fork the repository and create a new branch for your code improvements or additions.
 - **New codes will not be accepted (only simplifications and improvements are allowed).**
-- Follow the existing structure for adding new code.
-- Add your code or documentation in the appropriate folder.
+- Follow the existing structure while making improvements.
+- Add documentation updates in the appropriate folder when needed.
 - **Ensure code is well-commented and follows the existing structure.**
 - Submit a pull request with a clear description of your changes.
 
@@ -116,6 +116,6 @@ Below is an organized overview of the repository's structure, with brief descrip
   - Email: jagratadeb2004@gmail.com
 
 ---
-Feel free to explore, learn, and contribute (check out contribution guidelines) to this repository!
+Feel free to explore, learn, and contribute to this repository (check the contribution guidelines first)!
 
 
